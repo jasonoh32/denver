@@ -1,0 +1,378 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubdate>20160602</pubdate>
+        <title>Site Development Plans</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Includes plans that were identified historically as several types including Planned Building Groups (PBG), DP, MPBG, PD, etc.NOT included in these plans are General Development Plans (GDP), which are contained in a separate layer (PLAN_GENDEVPLAN_A) and Planned Unit Developments (PUD), which are identified within the Zoning layer (ZONE.ZONING_A).Since 2014 plan types are generically identified as Site Development Plans (SDP) which are defined as: Those plans representing projects that have gone through the Site Development Plan process (essentially zoning entitlements, ROW improvements, Stormwater/Wastewater infrastructure review, etc) and received an approval allowing the applicant to apply for building permits. The recordation provides 18 months of entitlement to their approved plan for the reviewing agencies. An approved SDP does NOT constitute building permit approval.Plans included may have a Status of "Recorded" (Recorded in the office of the Clerk and Recorder), which include a link to a digital copy of the plan, or "Under-Review" - which are not yet recorded (or may never be recorded) and do not include a link to the plan document.</abstract>
+      <purpose>To identify locations of Site Developmet Plans (SDP) and associated information including the file name of PDF Documents containing all associated plan drawings. Originally created for use in conjunction with mapping the new zoning code in order to determine locations that would keep original zoning due to the Site Specific conditions typically associated with the plan. This layer also serves as a continued reference for zoning and permitting.</purpose>
+      <supplinf>Includes all Site Development plans recorded by the Clerk and Recorder EXCEPT, Does not include PUD's, GDP's, LDF's or IMP's, which are in seperate layers.</supplinf>
+    </descript>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-105.109613</westbc>
+        <eastbc>-104.734490</eastbc>
+        <northbc>39.827187</northbc>
+        <southbc>39.614364</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>development</themekey>
+        <themekey>planning</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>planningCadastre</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Denver</placekey>
+        <placekey>Denver County</placekey>
+        <placekey>Colorado</placekey>
+        <placekey>USA</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>ACCESS CONSTRAINTS: This dataset restricted to City and County of Denver employees for official City business only. Contact the GIS Data Administrator for more information on distribution requirements/restrictions. USE CONSTRAINTS: The City and County of Denver is not responsible and shall not be liable to the user for damages of any kind arising out of the use of data or information provided by the City and County of Denver, including the installation of the data or information, its use, or the results obtained from its use. ANY DATA OR INFORMATION PROVIDED BY THE City and County of Denver IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. Data or information provided by the City and County of Denver shall be used and relied upon only at the user's sole risk, and the user agrees to indemnify and hold harmless the City and County of Denver, its officials, officers and employees from any liability arising out of the use of the data/information provided. NOT FOR ENGINEERING PURPOSES</useconst>
+    <datacred>City and County of Denver, Community Planning and Development</datacred>
+    <secinfo>
+      <secsys>RESTRICT - 1</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>Read access to all City users via the Intranet GIS Framework. Data available to those with access to SDE layers.</sechandl>
+    </secinfo>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</native>
+  </idinfo>
+  <dataqual />
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>2681</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.983152841195215e-009</latres>
+        <longres>8.983152841195215e-009</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>PLAN_SITEDEVPLANS_A1</enttypl>
+        <enttypd>Site development Plans</enttypd>
+        <enttypds>CPD</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RECORD_ID</attrlabl>
+        <attrdef>Accela permit number like YYYY-SDP-XXXXXXXX</attrdef>
+        <attrdefs>Accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RECORD_TYPE</attrlabl>
+        <attrdef>"Site Development Plan Review"
+</attrdef>
+        <attrdefs>Accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STATUS
+</attrlabl>
+        <attrdef>Several status from Accela groupd as: Under Review, Recorded
+</attrdef>
+        <attrdefs>CPD / Accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STATUS_DATE</attrlabl>
+        <attrdef>Ticket status date
+</attrdef>
+        <attrdefs>Accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PLAN_NAME</attrlabl>
+        <attrdef>Plan Name</attrdef>
+        <attrdefs>CPD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DESCRIPTION</attrlabl>
+        <attrdef>=Left(254)
+from Accela description field</attrdef>
+        <attrdefs>Accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LOG_NUM
+</attrlabl>
+        <attrdef>Log Number = left(13) from Application Name in Accela record - until Acela dev can fix/separate field data
+</attrdef>
+        <attrdefs>CPD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RECEPTION_NUM
+</attrlabl>
+        <attrdef>Reception Number - assigned when plan document is approved and recorded with the Clerk and Recorder
+*Accela "Mylar Recordation Number"</attrdef>
+        <attrdefs>CPD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RECEPTION_DATE</attrlabl>
+        <attrdef>Date recorded by Clerk and Recorder office
+Accela "Mylar recordation Date"</attrdef>
+        <attrdefs>Clerk and Recorder</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OTHER_REC_NUMS</attrlabl>
+        <attrdef>Other associated recordation numbers
+</attrdef>
+        <attrdefs>CPD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ADDRESS_LINE1</attrlabl>
+        <attrdef>Site address</attrdef>
+        <attrdefs>CPD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STREET_NUM</attrlabl>
+        <attrdef>Street address number
+PRIMARY</attrdef>
+        <attrdefs>CPD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STREET_DIR</attrlabl>
+        <attrdef>Street Direction</attrdef>
+        <attrdefs>CPD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STREET_NAME</attrlabl>
+        <attrdef>Street Name</attrdef>
+        <attrdefs>CPD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STREET_TYPE</attrlabl>
+        <attrdef>Street Type</attrdef>
+        <attrdefs>CPD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>UNIT_NUM</attrlabl>
+        <attrdef>Unit NUMBER</attrdef>
+        <attrdefs>CPD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PROPOSED_USE_1</attrlabl>
+        <attrdef>Proposed Use</attrdef>
+        <attrdefs>CPD Accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PROPOSED_USE_2</attrlabl>
+        <attrdef>Proposed Use</attrdef>
+        <attrdefs>CPD Accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PROPOSED_USE_3</attrlabl>
+        <attrdef>Proposed Use</attrdef>
+        <attrdefs>CPD Accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PROPOSED_USE_4</attrlabl>
+        <attrdef>Proposed Use</attrdef>
+        <attrdefs>CPD Accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ACCESSORY_USE_1</attrlabl>
+        <attrdef>accessory use
+</attrdef>
+        <attrdefs>CPD Accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ACCESSORY_USE_2</attrlabl>
+        <attrdef>accessary use
+</attrdef>
+        <attrdefs>CPD Accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PARCEL_PRIMARY</attrlabl>
+        <attrdef>parcel number - primary only
+</attrdef>
+        <attrdefs>CPD Accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PARCEL_SIZE</attrlabl>
+        <attrdef>parcel size - primary parcel value only
+Ares is Sq. Ft.
+</attrdef>
+        <attrdefs>CPD Accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PROP_BLDG_FORM_1</attrlabl>
+        <attrdef>proposed building form</attrdef>
+        <attrdefs>cpd accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PROP_BLDG_FORM_2</attrlabl>
+        <attrdef>proposed building form
+</attrdef>
+        <attrdefs>cpd accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>GROSS_FLOOR_AREA
+</attrlabl>
+        <attrdef>Gross floor area
+Area is Sq. Ft.
+</attrdef>
+        <attrdefs>CPD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PROP_DWELLING_UNITS</attrlabl>
+        <attrdef>number of proposed dwelling units
+</attrdef>
+        <attrdefs>CPD Accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PROP_STRUCTURES</attrlabl>
+        <attrdef>number of proposed structures
+</attrdef>
+        <attrdefs>CPD Accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PROP_HEIGHT</attrlabl>
+        <attrdef>proposed building height
+Text field to accomodate special char ' " </attrdef>
+        <attrdefs>CPD Accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PROP_STORIES</attrlabl>
+        <attrdef>proposed number of stories
+</attrdef>
+        <attrdefs>CPD Accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PARKING_SPACES
+</attrlabl>
+        <attrdef>Number of parking spaces</attrdef>
+        <attrdefs>CPD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DOCUMENT_1</attrlabl>
+        <attrdef>Link to plan document</attrdef>
+        <attrdefs>CPD Accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DOCUMENT_2
+</attrlabl>
+        <attrdef>Link to plan document pdf</attrdef>
+        <attrdefs>CPD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DOCUMENT_3
+</attrlabl>
+        <attrdef>Link to plan document pdf</attrdef>
+        <attrdefs>CPD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DOCUMENT_4
+</attrlabl>
+        <attrdef>Link to plan document pdf</attrdef>
+        <attrdefs>CPD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RELATED_RECORDS</attrlabl>
+        <attrdef>RELATED_RECORDS</attrdef>
+        <attrdefs>CPD Accela</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NOTES
+</attrlabl>
+        <attrdef>Notes</attrdef>
+        <attrdefs>CPD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>GIS_NOTES
+</attrlabl>
+        <attrdef>Notes for internal GIS use only</attrdef>
+        <attrdefs>CPD</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>label</enttypl>
+      </enttyp>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>City and County of Denver, Technology Services / Enterprise Data Management</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>201 W Colfax Ave, Dept 301</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80202</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntemail>denvergis@denvergov.org</cntemail>
+        <hours>M-F 8:00am - 4:00pm (MT)</hours>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20191121</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
